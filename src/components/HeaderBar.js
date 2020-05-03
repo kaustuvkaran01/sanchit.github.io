@@ -53,6 +53,7 @@ const HeaderContainer = styled.div`
     margin: 1rem;
     padding-top: 0rem;
     text-decoration: none;
+    font-family: Ubuntu;
     
   }
   .header-link2 {
@@ -62,6 +63,7 @@ const HeaderContainer = styled.div`
     margin: 1rem;
     padding-top: 0rem;
     text-decoration: none;
+    font-family: Ubuntu;
     
   }
   .header-link3 {
@@ -71,7 +73,7 @@ const HeaderContainer = styled.div`
     margin: 1rem;
     padding-top: 0rem;
     text-decoration: none;
-
+    font-family: Ubuntu;
   }
 `;
 const MainContainer = styled.div`
@@ -80,13 +82,16 @@ display: flex;
     background: url("https://source.unsplash.com/random");
     height: 50vh;
     width: 100%;
-    color: #15F4EE;
+    color: 	#9400D3;
     margin: 0;
   }
   .image-content p {
       padding-left: 10rem;
       padding-bottom: 2rem;
       justify-content: space-between;
+      font-family: Ubuntu;
+      font-weight: 600;
   }
+
 
 `;

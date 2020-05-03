@@ -1,31 +1,17 @@
 import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf';
- 
-class CVDoc extends Component {
-  state = {
-    numPages: null,
-    pageNumber: 1,
-  }
- 
-  onDocumentLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
-  }
- 
+ import samplePDF from "./sample.pdf";
+class CVdoc extends Component {
   render() {
-    const { pageNumber, numPages } = this.state;
- 
     return (
-      <div>
-        <Document
-          file="MTA_certificate.pdf"
-          onLoadSuccess={this.onDocumentLoadSuccess}
-        >
-          <Page pageNumber={pageNumber} />
-        </Document>
-        <p>Page {pageNumber} of {numPages}</p>
-      </div>
+      <Document
+        file={samplePDF}
+        onLoadSuccess={this.onDocumentLoadSuccess}
+      >
+        <Page pageNumber={1} />
+      </Document>
     );
   }
 }
 
-export default CVDoc;
+export default CVdoc;

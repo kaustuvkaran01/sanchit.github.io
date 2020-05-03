@@ -7,16 +7,20 @@ import { FaFacebookF } from "react-icons/fa";
 function Footer() {
   return (
     <MainContainer>
-        <p>
-                Made with love <BsHeartHalf background="#15F4EE"/>
-
-                <br />
-                <br />
-                <FiYoutube size={32} />
-                <AiFillInstagram size={32} />
-                <FaFacebookF size={32} />
-                <AiOutlineGitlab size={32} />
-        </p>
+      <p>
+        Made with love <BsHeartHalf background="#15F4EE" />
+        <br />
+        <br />
+        <a href="https://www.youtube.com/channel/UCGdakFWtLfWkyc6VMD5ViuA">
+          <FiYoutube size={32} />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com">
+          <AiFillInstagram size={32} />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com">
+          <FaFacebookF size={32} />
+        </a>
+      </p>
     </MainContainer>
   );
 }

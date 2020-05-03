@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
 import Bio from "./Bio";
-import CVDoc from "./CVdoc"
+import CVdoc from "./CVdoc"
 
 
 class CVContent extends Component {
@@ -14,7 +14,7 @@ class CVContent extends Component {
         <div className="main">
             <p>This is my CV for your referrence: </p>
             <br />
-            <CVDoc />
+            <CVdoc />
         </div>
       </MainContainer>
     );

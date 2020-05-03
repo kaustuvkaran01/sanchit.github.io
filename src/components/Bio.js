@@ -12,7 +12,7 @@ function Bio() {
         <img src={image} style={{width:"10rem", height:"auto", borderRadius:"50%"}} />
 
         <p className="name">
-            Kaustuv Karan
+            Sanchit Tanwar
         </p>
         <p>
             B.E. Graduate  @ TIET, Patiala
@@ -24,7 +24,7 @@ function Bio() {
             <FaGraduationCap /><a href="https://www.google.co.in">Google Scholar</a>
         </p>
         <p>
-            <AiFillGithub /><a href="https://www.github.com">Github</a>
+            <AiFillGithub /><a href="https://github.com/sanchit2843">Github</a>
         </p>
         <p>
            <MdEmail  />Email
@@ -35,7 +35,8 @@ function Bio() {
 export default Bio;
 const MainContainer = styled.div`
 
-
+font-family: Ubuntu;
+font-weight: 600;
 
 img {
     // align-self:center;

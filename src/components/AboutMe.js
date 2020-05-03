@@ -90,10 +90,14 @@ const TextContainer = styled.div`
     font-size: large;
     opacity: 0.5;
     a {
-        color: rgb(21,244,244);
+        color: #9400D3;
+        font-family: Ubuntu;
+        font-weight: 600;
     }
 `;
 const HeadingContainer = styled.div`
     opacity: 0.8;
     font-size: x-large;
+
+    font-family: Ubuntu;
 `;
