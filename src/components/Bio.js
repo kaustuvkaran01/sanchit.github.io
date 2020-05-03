@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../images/profilephoto.JPG"
+import image from "../images/profilephoto1.JPG"
 import styled from "styled-components";
 import { NavLink, Link } from 'react-router-dom';
 import { MdLocationOn } from "react-icons/md";
