@@ -12,8 +12,8 @@ class HeaderBar extends Component {
             </NavLink>
           </div>
           <div className="header-link2">
-            <NavLink to="/" style={{ color: "rgba(0,0,0,0.6)" }}>
-              Publications
+            <NavLink to="/blogs" style={{ color: "rgba(0,0,0,0.6)" }}>
+              Blogs
             </NavLink>
           </div>
           <div className="header-link3">
