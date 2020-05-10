@@ -18,7 +18,7 @@ class HeaderBar extends Component {
           </div>
           <div className="header-link3">
             <NavLink to="/cv" style={{ color: "rgba(0,0,0,0.6)" }}>
-              CV
+              Projects
             </NavLink>
           </div>
         </HeaderContainer>
@@ -27,7 +27,7 @@ class HeaderBar extends Component {
             <p style={{ fontSize: "4rem", margin:"0rem" }}>Sanchit Tanwar</p>
             <p style={{ fontSize: "3rem", margin:"0rem" }}>B.E. Candidate, TIET</p>
             <p style={{ fontSize: "2rem", margin:"0rem" }}>
-              Computer Vision | Deep Learning | Computational Photography
+              Computer Vision | Deep Learning | Robotics
             </p>
           </div>
         </MainContainer>
@@ -82,7 +82,8 @@ display: flex;
     background: url("https://source.unsplash.com/random");
     height: 50vh;
     width: 100%;
-    color: 	#9400D3;
+    // color: 	#9400D3;
+    color: #ffcc00;
     margin: 0;
   }
   .image-content p {

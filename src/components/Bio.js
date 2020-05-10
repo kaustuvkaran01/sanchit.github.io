@@ -4,31 +4,39 @@ import styled from "styled-components";
 import { NavLink, Link } from 'react-router-dom';
 import { MdLocationOn } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
-import { FaGraduationCap } from "react-icons/fa";
+import { FaGraduationCap,FaMedium } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
+
 function Bio() {
   return (
     <MainContainer>
-        <img src={image} style={{width:"10rem", height:"auto", borderRadius:"50%"}} />
+      <img
+        src={image}
+        style={{ width: "10rem", height: "auto", borderRadius: "50%" }}
+      />
 
-        <p className="name">
-            Sanchit Tanwar
-        </p>
-        <p>
-            B.E. Graduate  @ TIET, Patiala
-        </p>
-        <p>
-            <MdLocationOn />Patiala, Punjab, India
-        </p>
-        <p>
-            <FaGraduationCap /><a href="https://www.google.co.in">Google Scholar</a>
-        </p>
-        <p>
-            <AiFillGithub /><a href="https://github.com/sanchit2843">Github</a>
-        </p>
-        <p>
-           <MdEmail  />Email
-        </p>
+      <p className="name">Sanchit Tanwar</p>
+      <p>B.E. Graduate @ TIET, Patiala</p>
+      <p>
+        <MdLocationOn />
+        Patiala, Punjab, India
+      </p>
+      <p>
+        <FaMedium size={20} />
+        <a href="https://medium.com/@sanchittanwar75">&nbsp;Sanchit Tanwar</a>
+      </p>
+      <p>
+        <AiFillGithub />
+        <a href="https://github.com/sanchit2843">Github</a>
+      </p>
+      <p>
+        <MdEmail />
+        Email
+      </p>
+      <p>
+        <FaGraduationCap />
+        <a href="https://raw.githubusercontent.com/sanchit2843/Resume/master/sanchit_resume.pdf">CV</a>
+      </p>
     </MainContainer>
   );
 }

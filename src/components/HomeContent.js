@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from "styled-components";
 import Bio from "./Bio";
 import AboutMe from "./AboutMe";
-import PageContent from "./PageContent";
+// import PageContent from "./PageContent";
 
 class HomeContent extends Component {
   render() {
@@ -15,9 +15,9 @@ class HomeContent extends Component {
           <div className="about">
             <AboutMe />
           </div>
-          <div className="pgcontent">
-            <PageContent />
-          </div>
+          {/* <div className="pgcontent"> */}
+            {/* <PageContent /> */}
+          {/* </div> */}
         </div>
       </MainContainer>
     );
@@ -48,10 +48,10 @@ const MainContainer = styled.div`
   .content .about {
     // grid-column: 5 / 16;
 
-    width: 45%;
+    width: 70%;
   }
-  .content .pgcontent {
-    // grid-column: 17 / 21;
-    width: 30%;
-  }
+  // .content .pgcontent {
+  //   // grid-column: 17 / 21;
+  //   width: 30%;
+  // }
 `;
