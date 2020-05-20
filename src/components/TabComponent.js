@@ -75,6 +75,10 @@ const MainContainer = styled.div`
 
   strong {
     width: 100%;
+    text-decoration: none;
+  }
+  p {
+    text-decoration: none;
   }
 
 `;

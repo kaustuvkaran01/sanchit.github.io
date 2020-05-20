@@ -17,7 +17,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link>&nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -31,7 +31,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link>&nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -45,7 +45,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link>&nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -59,7 +59,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link>&nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -73,7 +73,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link>&nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -87,7 +87,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link>&nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -101,7 +101,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link>&nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -115,7 +115,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link>&nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -129,7 +129,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link>&nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -143,7 +143,7 @@ function TabContentFour() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Card Link</Card.Link> &nbsp;&nbsp;
             <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
@@ -163,5 +163,8 @@ const MainContainer = styled.div`
 
     .card {
         margin: 1rem;
+        padding: 1rem;
+        border-radius: 50px;
+        font-family: Ubuntu;
     }
 `;

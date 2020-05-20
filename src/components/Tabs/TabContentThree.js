@@ -100,5 +100,8 @@ const TabContainer = styled.div`
   }
   .card {
     margin:1rem;
+    padding: 1rem;
+    border-radius: 50px;
+    font-family: Ubuntu;
   }
 `;
