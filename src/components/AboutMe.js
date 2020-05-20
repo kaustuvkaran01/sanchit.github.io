@@ -75,18 +75,34 @@ class AboutMe extends Component {
         </TextContainer>
         <br />
         <HeadingContainer>Work Experience</HeadingContainer>
-        <TextContainer>
-          <ul>
-            <li>This is amazing;</li>
-          </ul>
-        </TextContainer>
+        <Table>
+          <tbody>
+            <tr>
+              <td>08.2018 - 08.2019</td>
+              <td>General Secretary: IETE</td>
+              <td>Managing day to day work of Thapar Chapter of the nationwide technical society of electronics and communication</td>
+            </tr>
+            <tr>
+              <td>09.17 - 06.18</td>
+              <td>Technical Head: IETE</td>
+              <td>I arranged workshops on several topics such as Arduino and its peripherals. I also volunteered to mentor 15 students from their Freshman Year.</td>
+            </tr>
+            <tr>
+              <td>2018</td>
+              <td>
+                Technical Head: Elementos
+              </td>
+              <td>Technical Head of a week long tech fest of robotics and electronics. I also managed a hackathon in the same.</td>
+            </tr>
+          </tbody>
+        </Table>
         <br />
         <HeadingContainer>Skills</HeadingContainer>
         <Table>
           <tbody>
             <tr>
-              <td>Languages</td>
-              <td className="tdata">C++, Python, Matlab</td>
+              <td>Languages</td>      
+              <td className="tdata">C++, Python, Matlab</td>  
             </tr>
             <tr>
               <td>Deep Learning</td>

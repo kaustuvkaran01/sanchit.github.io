@@ -5,8 +5,6 @@ import HomeContent from "../components/HomeContent";
 import Footer from "../components/Footer";
 
 class Home extends Component {
-  
-
   componentDidMount(){
     window.scroll(0,0);
   }
