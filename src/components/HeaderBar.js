@@ -11,11 +11,11 @@ class HeaderBar extends Component {
               Home
             </NavLink>
           </div>
-          <div className="header-link2">
+          {/* <div className="header-link2">
             <NavLink to="/blogs" style={{ color: "rgba(0,0,0,0.6)" }}>
               Blogs
             </NavLink>
-          </div>
+          </div> */}
           <div className="header-link3">
             <NavLink to="/projects" style={{ color: "rgba(0,0,0,0.6)" }}>
               Projects
@@ -69,7 +69,7 @@ const HeaderContainer = styled.div`
   .header-link3 {
     font-size: 1.5rem;
     font-weight: 700;
-    padding-left: 5rem;
+    padding-left: 50rem;
     margin: 1rem;
     padding-top: 0rem;
     text-decoration: none;
