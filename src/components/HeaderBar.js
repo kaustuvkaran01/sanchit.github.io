@@ -41,15 +41,13 @@ const HeaderContainer = styled.div`
   height: 10vh;
   width: 100%;
   background: white;
-  display: flex;
-  flex-direction: row;
 
   .header-link1 {
     font-size: 1.5rem;
     font-weight: 700;
     float:left;
     padding-left: 5rem;
-    padding-right: 10rem;
+    // padding-right: 10rem;
     margin: 1rem;
     padding-top: 0rem;
     text-decoration: none;
@@ -69,7 +67,7 @@ const HeaderContainer = styled.div`
   .header-link3 {
     font-size: 1.5rem;
     font-weight: 700;
-    padding-left: 50rem;
+    padding-right: 10rem;
     float:right;
     margin: 1rem;
     padding-top: 0rem;
@@ -80,7 +78,9 @@ const HeaderContainer = styled.div`
 const MainContainer = styled.div`
 display: flex;
 .image-content {
-    background: url("https://source.unsplash.com/random");
+    background: url("https://source.unsplash.com/qjnAnF0jIGk/640x360
+
+");
     height: 50vh;
     width: 100%;
     // color: 	#9400D3;
