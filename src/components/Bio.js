@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { FaGraduationCap,FaMedium } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 
+
 function Bio() {
   return (
     <MainContainer>
@@ -32,6 +33,11 @@ function Bio() {
       <p>
         <MdEmail />
         Email
+        {/*
+<Mailto email="kkaran_be18@thapar.edu" obfuscate={true}>
+        Email me!
+      	</Mailto>
+        */}
       </p>
       <p>
         <FaGraduationCap />
