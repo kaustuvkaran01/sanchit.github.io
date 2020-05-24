@@ -11,57 +11,15 @@ function TabContentTwo() {
   return (
     <TabContainer>
       <div className="tab-content">
-      <Card className="card" style={{ width: "18rem", border:"solid",  }}>
+        <Card className="card" style={{ width: "18rem", border: "solid" }}>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
+            <Card.Title>Home automation using IOT</Card.Title>
+            {/* <Card.Subtitle className="mb-2 text-muted">
               Card Subtitle
-            </Card.Subtitle>
+            </Card.Subtitle> */}
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card>
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
-            </Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card>
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
-            </Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card>
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
-            </Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Home automation using node-mcu and cayenne cloud platform. Applied
+              it in my room and used it for a week using an app of cayenne.
             </Card.Text>
             <Card.Link href="#">Card Link</Card.Link>
             <Card.Link href="#">Another Link</Card.Link>

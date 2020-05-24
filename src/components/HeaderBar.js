@@ -47,7 +47,7 @@ const HeaderContainer = styled.div`
   .header-link1 {
     font-size: 1.5rem;
     font-weight: 700;
-    // float:right;
+    float:left;
     padding-left: 5rem;
     padding-right: 10rem;
     margin: 1rem;
@@ -56,20 +56,21 @@ const HeaderContainer = styled.div`
     font-family: Ubuntu;
     
   }
-  .header-link2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding-left: 50rem;
-    margin: 1rem;
-    padding-top: 0rem;
-    text-decoration: none;
-    font-family: Ubuntu;
+  // .header-link2 {
+  //   font-size: 1.5rem;
+  //   font-weight: 700;
+  //   padding-left: 50rem;
+  //   margin: 1rem;
+  //   padding-top: 0rem;
+  //   text-decoration: none;
+  //   font-family: Ubuntu;
     
-  }
+  // }
   .header-link3 {
     font-size: 1.5rem;
     font-weight: 700;
     padding-left: 50rem;
+    float:right;
     margin: 1rem;
     padding-top: 0rem;
     text-decoration: none;
