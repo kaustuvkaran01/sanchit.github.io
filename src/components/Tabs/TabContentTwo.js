@@ -7,64 +7,23 @@ import styled from "styled-components";
 // import img3 from "../images/tab-tv.png";
 import { generateMedia } from "styled-media-query";
 import { Card } from "react-bootstrap";
+import { DiGithubFull } from "react-icons/di";
 function TabContentTwo() {
   return (
     <TabContainer>
       <div className="tab-content">
-      <Card className="card" style={{ width: "18rem", border:"solid",  }}>
+        <Card className="card" style={{ width: "18rem", border: "solid" }}>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
+            <Card.Title>Home automation using IOT</Card.Title>
+            {/* <Card.Subtitle className="mb-2 text-muted">
               Card Subtitle
-            </Card.Subtitle>
+            </Card.Subtitle> */}
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Home automation using node-mcu and cayenne cloud platform. Applied
+              it in my room and used it for a week using an app of cayenne.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card>
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
-            </Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card>
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
-            </Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card>
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
-            </Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
       </div>
@@ -156,5 +115,14 @@ const TabContainer = styled.div`
     padding: 1rem;
     border-radius: 50px;
     font-family: Ubuntu;
+
+    //This is the grow effect
+
+    -mos-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    &:hover, &:focus {
+      transform: scale(1.05);
+    }
   }
 `;

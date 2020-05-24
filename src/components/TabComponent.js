@@ -9,7 +9,7 @@ import styled from "styled-components";
 class TabsComponent extends Component {
 
   state = {
-    tabIndex: 2
+    tabIndex: 0
   }
 
   render() {

@@ -5,83 +5,59 @@ import { Link, NavLink } from "react-router-dom";
 import { Icon } from "react-icons";
 import { generateMedia } from "styled-media-query";
 import { Card } from "react-bootstrap";
+import { DiGithubFull } from "react-icons/di";
 function TabContentThree() {
   return (
     <TabContainer>
       {/* Tab Top Content */}
       <div className="tab-content">
-        <Card className="card" style={{ width: "18rem", border:"solid"  }}>
+        <Card className="card" style={{ width: "18rem", border: "solid" }}>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
+            <Card.Title>Self Driving Car</Card.Title>
+            {/* <Card.Subtitle className="mb-2 text-muted">
               Card Subtitle
-            </Card.Subtitle>
+            </Card.Subtitle> */}
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Implementing using simulation tools, deep learning, and other
+              computer vision techniques.(Ongoing Lane finding, traffic sign
+              classifier and steering angle prediction implemented)
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            
           </Card.Body>
         </Card>
         <br />
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
+        <Card className="card" style={{ width: "18rem", border: "solid" }}>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
+            <Card.Title>Line Follower using PID</Card.Title>
+            {/* <Card.Subtitle className="mb-2 text-muted">
               Card Subtitle
-            </Card.Subtitle>
+            </Card.Subtitle> */}
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Line follower based on PID algorithm to improve accuracy.
+              Participated in saturnalia with this bot and reached finals.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            
           </Card.Body>
         </Card>
         <br />
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
+        <Card className="card" style={{ width: "18rem", border: "solid" }}>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
+            <Card.Title>Seed sowing bot</Card.Title>
+            {/* <Card.Subtitle className="mb-2 text-muted">
               Card Subtitle
-            </Card.Subtitle>
+            </Card.Subtitle> */}
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Seed sowing bot model using arduino and ir sensors. Used servo
+              motors for making seed sowing mechanism and used ir sensors to
+              detect pits.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            
           </Card.Body>
         </Card>
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
-            </Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card>
-        <Card className="card" style={{ width: "18rem", border:"solid",  }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
-            </Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
-        </Card>
+        <br />
       </div>
     </TabContainer>
   );
@@ -103,5 +79,14 @@ const TabContainer = styled.div`
     padding: 1rem;
     border-radius: 50px;
     font-family: Ubuntu;
+
+    //This is the grow effect
+
+    -mos-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    &:hover, &:focus {
+      transform: scale(1.05);
+    }
   }
 `;
