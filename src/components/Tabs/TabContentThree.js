@@ -5,6 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 import { Icon } from "react-icons";
 import { generateMedia } from "styled-media-query";
 import { Card } from "react-bootstrap";
+import { DiGithubFull } from "react-icons/di";
 function TabContentThree() {
   return (
     <TabContainer>
@@ -21,8 +22,8 @@ function TabContentThree() {
               computer vision techniques.(Ongoing Lane finding, traffic sign
               classifier and steering angle prediction implemented)
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            
           </Card.Body>
         </Card>
         <br />
@@ -36,8 +37,8 @@ function TabContentThree() {
               Line follower based on PID algorithm to improve accuracy.
               Participated in saturnalia with this bot and reached finals.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            
           </Card.Body>
         </Card>
         <br />
@@ -52,8 +53,8 @@ function TabContentThree() {
               motors for making seed sowing mechanism and used ir sensors to
               detect pits.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            
           </Card.Body>
         </Card>
         <br />
@@ -78,5 +79,14 @@ const TabContainer = styled.div`
     padding: 1rem;
     border-radius: 50px;
     font-family: Ubuntu;
+
+    //This is the grow effect
+
+    -mos-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    &:hover, &:focus {
+      transform: scale(1.05);
+    }
   }
 `;

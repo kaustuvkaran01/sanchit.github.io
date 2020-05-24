@@ -7,6 +7,7 @@ import styled from "styled-components";
 // import img3 from "../images/tab-tv.png";
 import { generateMedia } from "styled-media-query";
 import { Card } from "react-bootstrap";
+import { DiGithubFull } from "react-icons/di";
 function TabContentTwo() {
   return (
     <TabContainer>
@@ -21,8 +22,8 @@ function TabContentTwo() {
               Home automation using node-mcu and cayenne cloud platform. Applied
               it in my room and used it for a week using an app of cayenne.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
       </div>
@@ -114,5 +115,14 @@ const TabContainer = styled.div`
     padding: 1rem;
     border-radius: 50px;
     font-family: Ubuntu;
+
+    //This is the grow effect
+
+    -mos-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    &:hover, &:focus {
+      transform: scale(1.05);
+    }
   }
 `;

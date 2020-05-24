@@ -4,12 +4,13 @@ import {Link, NavLink} from "react-router-dom";
 import styled from "styled-components";
 import { generateMedia } from "styled-media-query";
 import { Card } from "react-bootstrap";
+import { DiGithubFull } from "react-icons/di"
 
 export default function TabContentOne() {
   return (
     <TabContentContainer>
       <div className="tab-content">
-        <Card className="card" style={{ width: "18rem", border: "solid" }}>
+  <Card className="card" style={{ width: "18rem", border: "solid" }}>         {/* TODO:Link not present */}
           <Card.Body>
             <Card.Title>Attention Detection</Card.Title>
             {/* <Card.Subtitle className="mb-2 text-muted">
@@ -19,11 +20,11 @@ export default function TabContentOne() {
               Research project in which we are detecting the engagement level of
               students during MOOC using deep learning. (Ongoing)
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
-        <Card className="card" style={{ width: "18rem", border: "solid" }}>
+        <Card className="card" style={{ width: "18rem", border: "solid" }}>       {/*TODO: Link incorrect*/}
           <Card.Body>
             <Card.Title>Crime Detection</Card.Title>
             {/* <Card.Subtitle className="mb-2 text-muted">
@@ -35,8 +36,8 @@ export default function TabContentOne() {
               extraction. This project was done as a freelance work for a
               mexican company
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
         <Card className="card" style={{ width: "18rem", border: "solid" }}>
@@ -49,8 +50,8 @@ export default function TabContentOne() {
               I am implementing various applications of GANs. I have implemented
               DCGAN and semantic segmantation using pix2pix GAN.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="https://github.com/sanchit2843/GAN-applications"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
         <Card className="card" style={{ width: "18rem", border: "solid" }}>
@@ -65,11 +66,11 @@ export default function TabContentOne() {
               raspberry pi. Similar thing can be implemented using mobile phones
               to make it more accessible.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="https://github.com/sanchit2843/ArtificialEyes"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
-        <Card className="card" style={{ width: "18rem", border: "solid" }}>
+          <Card className="card" style={{ width: "18rem", border: "solid" }}>       {/*TODO: Link incorrect*/}
           <Card.Body>
             <Card.Title>Music genre classification</Card.Title>
             {/* <Card.Subtitle className="mb-2 text-muted">
@@ -80,8 +81,8 @@ export default function TabContentOne() {
               took the fft of song sequence and created spectogram. I applied
               cnn(Densenet) on the spectograms created.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
         <Card className="card" style={{ width: "18rem", border: "solid" }}>
@@ -95,11 +96,11 @@ export default function TabContentOne() {
               doctors diagnose various diseases at an early stage and make it
               accessible by deploying on cloud platform.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="https://github.com/sanchit2843/healthcad"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
-        <Card className="card" style={{ width: "18rem", border: "solid" }}>
+        <Card className="card" style={{ width: "18rem", border: "solid" }}>         {/*TODO: Link not working/broken*/}
           <Card.Body>
             <Card.Title>Age and gender detection</Card.Title>
             {/* <Card.Subtitle className="mb-2 text-muted">
@@ -110,11 +111,11 @@ export default function TabContentOne() {
               UTK face dataset. I applied transfer learning using resnet18
               architecture in pytorch.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
-        <Card className="card" style={{ width: "18rem", border: "solid" }}>
+        <Card className="card" style={{ width: "18rem", border: "solid" }}>       {/*TODO: Link not working/broken*/}
           <Card.Body>
             <Card.Title>Neural Style transfer</Card.Title>
             {/* <Card.Subtitle className="mb-2 text-muted">
@@ -126,13 +127,13 @@ export default function TabContentOne() {
               combinations other than those given in the paper but it worked
               best in case of those suggested in paper.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
         <Card className="card" style={{ width: "18rem", border: "solid" }}>
           <Card.Body>
-            <Card.Title>Music Lyrics Generation</Card.Title>
+            <Card.Title>Music Lyrics Generation</Card.Title>                     {/*TODO: Link not working/broken*/}
             {/* <Card.Subtitle className="mb-2 text-muted">
               Card Subtitle
             </Card.Subtitle> */}
@@ -141,8 +142,8 @@ export default function TabContentOne() {
               scrapped using pylyrics3 library and keras, NLTK was used to
               preprocess data and create LSTM.
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Link href="#"><DiGithubFull size="70" /></Card.Link>
+            {/* <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
       </div>
@@ -199,5 +200,14 @@ const TabContentContainer = styled.div`
     padding: 1rem;
     border-radius: 50px;
     font-family: Ubuntu;
+
+    //This is the grow effect
+
+    -mos-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    &:hover, &:focus {
+      transform: scale(1.05);
+    }
   }
 `;
